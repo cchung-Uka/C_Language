@@ -17,6 +17,6 @@ int main()
 			max = n;
 	}
 	printf("%d", max);
-	
+
 	return 0;
 }

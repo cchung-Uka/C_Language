@@ -4,13 +4,12 @@
 
 int main()
 {
-	int n[10];
+	int n[10] = { 0 };
 
 	for (int i = 0; i < 10; i++)
 	{
 		scanf("%d", &n[i]);
 	}
-
 	for (int i = 9; i >= 0; i--) 
 	{
 		printf("%d ", n[i]);

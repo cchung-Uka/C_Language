@@ -14,6 +14,6 @@ int main()
 	h /= 100;
 	BMI = w / pow(h, 2);
 	printf("%.2lf", BMI);
-
+	
 	return 0;
 }

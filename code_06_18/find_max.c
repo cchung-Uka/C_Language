@@ -1,16 +1,22 @@
 #define _CRT_SECURE_NO_WARNINGS 1
-#include<stdio.h>
+
+#include <stdio.h>
+
 int main()
 {
-	int i;
-	int n1,n2;
-	scanf("%d", &n1);
-	for (i = 0; i < 3; i++)
+	int max = 0;
+	int n = 0;
+
+	scanf("%d", &max);
+
+	for (int i = 0; i < 3; i++)
 	{
-		scanf("%d", &n2);
-		if (n2 > n1)
-			n1 = n2;
+		scanf("%d", &n);
+
+		if (n > max)
+			max = n;
 	}
-	printf("%d", n1);
+	printf("%d", max);
+	
 	return 0;
 }

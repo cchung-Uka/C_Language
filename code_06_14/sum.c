@@ -9,7 +9,6 @@ int main()
 	long long i = 1;
 
 	scanf("%lld", &n);
-
 	while (i <= n)
 	{
 		sum += i;

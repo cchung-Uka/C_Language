@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-//求Sn=a+aa+aaa+aaaa+aaaaa的前5项之和，其中a是一个数字，
+//求Sn=a+aa+aaa+aaaa+aaaaa的前5项之和，其中a是一个数字
 int main()
 {
 	int a = 0;

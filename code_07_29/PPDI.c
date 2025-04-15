@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <math.h>
 
-//求出0～100000之间的所有“水仙花数”并输出。
+//求出0～100000之间的所有“水仙花数”并输出
 int count_bit(int n)
 {
 	int count = 1;
